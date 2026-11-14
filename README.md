@@ -32,6 +32,7 @@ The script assumes right mouse button is your aim bind. Starting the filter with
 | F10 | Stops the worker through a Windows key-state check. The settings window stays open. |
 
 `sensitivity.json` is created next to the script when settings are first saved. It is a JSON object keyed by weapon ID. For example, `"28": 1.44` is the Micro Uzi multiplier. The real file contains one entry per slider. The app loads supported keys in the slider range at startup. Missing keys use their built-in defaults. If the file cannot be read or parsed, the status line reports that and the window uses defaults.
+Tiki.
 
 Apply writes `sensitivity.tmp` first and then replaces `sensitivity.json`. If saving fails, the old live settings remain in use and the window displays the error. The app folder therefore needs to be writable.
 
