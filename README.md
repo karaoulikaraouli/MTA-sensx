@@ -137,3 +137,4 @@ The fixed right-click scaling test worked on the original setup. The UI, image l
 The script does not verify the executable version automatically. Driver compatibility and timing depend on the system. Read-only game access and mouse packet forwarding do not establish that a particular server allows the tool. Ask the server staff before using it online.
 
 The Python source can be reviewed independently of the bundled DLL. See the [upstream Interception project](https://github.com/oblitum/Interception) for the driver and DLL source information, licensing terms, and release downloads. Check the applicable redistribution terms for the DLL and weapon images before publishing them. The Python project's own license should be stated separately if one is chosen.
+Coded by Tiki.
